@@ -17,7 +17,7 @@ public class FileWriterTest {
         assertEquals(EXPECTED_ERROR_MSG, fileWriterDemo.errorMsg);
     }
 
-    //this should go to a seperate class classed FileUtilsTest
+    //this should go to a seperate class called FileUtilsTest
     @Test
     public void testUniqueStrings() throws InterruptedException {
         FileUtils fileUtils = new FileUtils();
